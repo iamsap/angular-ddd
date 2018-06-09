@@ -20,7 +20,6 @@ This app is a very simple demo of how to do domain-driven design even in fronten
 ## AFTER: Domain-driven approach
 ```
 /* app.module.ts */
-// Register the repo
 import { UserRepository } from './repositories/user.repository';
 
 // Register repo as a provider
