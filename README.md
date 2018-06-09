@@ -2,7 +2,7 @@
 
 This app is a very simple demo of how to do domain-driven design even in frontend technologies like Angular.
 
-## Business logic in controller
+## BEFORE: Business logic in controller
 ```
 /* app.component.ts */
 
@@ -17,7 +17,7 @@ This app is a very simple demo of how to do domain-driven design even in fronten
   }  
 ```
 
-## Domain repository
+## AFTER: Domain-driven approach
 ```
 /* app.module.ts */
 // Register the repo
